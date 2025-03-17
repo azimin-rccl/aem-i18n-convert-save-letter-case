@@ -14,6 +14,9 @@ just before you release your updated dictionary).
 
 Keys are automatically sorted alphabetically to make hand merging easier if necessary.
 
+MOD of https://github.com/jayproulx/aem-i18n-convert 
+Uppercase letters added to save key value with uppercase in XML node name.
+
 **Usage**
 
     Convert an AEM i18n dictionary to sling:MessageEntries.
@@ -25,6 +28,4 @@ Keys are automatically sorted alphabetically to make hand merging easier if nece
       -i, --input  i18n json format file
 
 **Example**
-
-    # npm install -g aem-i18n-convert
-    # aem-i18n-convert --input /path/to/en_us.json > /path/to/apps/project/i18n/mydictionary/en_us.xml
+    # aem-i18n-convert.js --input /path/to/en_us.json > /path/to/apps/project/i18n/mydictionary/en_us.xml
